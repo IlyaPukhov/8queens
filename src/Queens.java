@@ -30,7 +30,7 @@ public class Queens {
         return true;
     }
 
-    //алгоритм перебора в возвратом
+    //алгоритм перебора с возвратом
     public void backtrack(int row) {
         //проверяем на конец доски
         if (row == SIZE) {
